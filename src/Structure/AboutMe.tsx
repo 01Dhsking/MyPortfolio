@@ -1,31 +1,34 @@
-import React from 'react'
 import photo2 from "../assets/photo2.jpeg"
 
 export const AboutMe = () => {
   return (
-    <div >
+    <div>
         <div className='mb-5 flex flex-col justify-center items-center'>
             <div className='text-gray-700'>Get To Know More</div>
-            <div className='font-medium text-5xl'>About Me</div>
+            <div className='text-5xl font-bold'>About Me</div>
         </div>
-        <div className='mb-20 flex justify-center items-center'>
-            <div className='px-28 w-9/12  flex justify-between'>
-                <div className='flex justify-center items-center'>
+        <div className='text-lg w-full px-40 mb-20 flex justify-center items-center'>
+            <div className='w-full flex justify-between'>
+                <div className='w-1/3 flex justify-center items-center'>
                     <img src={photo2} alt="moi" className='w-96 h-80 rounded-3xl' />
                 </div>
-                <div className='max-w-xs flex flex-col'>
-                    <div className='flex space-x-7 mb-8'>
-                        <div className='flex flex-col justify-center items-center
-                            border border-gray-500 rounded px-16 rounded-3xl'>
-                            <div>Experience</div>
-                            <div>2+ years</div>
-                            <div>Frontend Development</div>
+                <div className='w-2/3 flex flex-col p-12'>
+                    <div className='flex justify-between mb-8'>
+                        <div className='h-40 w-64 flex  justify-center items-center
+                            border border-gray-500 rounded rounded-3xl'>
+                            <ul>   
+                                <li className='text-center font-bold'>Experience</li>
+                                <li className='text-center'>2+ years</li>
+                                <li className='text-center'>Frontend Development</li>
+                            </ul>
                         </div>
-                        <div className='flex flex-col justify-center items-center 
-                            border border-gray-500 rounded px-16 rounded-3xl'>
-                            <div>Education</div>
-                            <div>B.Sc. Bachelors Degree</div>
-                            <div>M.Sc. Masters Degree</div>
+                        <div className=' h-40 w-64 flex flex-col justify-center items-center 
+                            border border-gray-500 rounded  rounded-3xl'>
+                            <ul>
+                                <li  className='text-center font-bold'>Education</li>
+                                <li className='text-center'>B.Sc. Bachelors Degree</li>
+                                <li className='text-center'>M.Sc. Masters Degree</li>
+                            </ul>
                         </div>
                     </div>
                     <div className='w-full'>

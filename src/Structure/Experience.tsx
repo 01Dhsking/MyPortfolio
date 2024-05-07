@@ -5,7 +5,7 @@ export const Experience = () => {
     <div>
       <div className='mb-5 flex flex-col justify-center items-center'>
         <div className='text-gray-700'>Explore My</div>
-        <div className='font-medium text-5xl'>Experience</div>
+        <div className='font-bold text-5xl'>Experience</div>
       </div>
       <div className='space-x-3 mb-20 flex flex justify-center items-center '>
         <div className='flex justify-center items-center 
