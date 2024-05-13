@@ -1,7 +1,9 @@
 import { ControlCenter } from "./Structure/ControlCenter"
-import {Profil} from "./Structure/Profil"
+import { Profil } from "./Structure/Profil"
 import { AboutMe } from "./Structure/AboutMe"
 import { Experience } from "./Structure/Experience"
+import { Project } from "./Structure/Project"
+import { ContactMe } from "./Structure/ContactMe"
 
 function App() {
 
@@ -12,6 +14,8 @@ function App() {
         <Profil />
         <AboutMe />
         <Experience />
+        <Project />
+        <ContactMe />
       </div>
     </>
   )
