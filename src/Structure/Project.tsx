@@ -13,8 +13,8 @@ export const Project = () => {
       <div className='space-x-8 mb-9 flex justify-center'>
 
         <div className="bg-gray-100 p-10 w-1/3 flex flex-col items-center
-        border border-gray-500 rounded rounded-3xl">
-          <div className="rounded rounded-3xl overflow-hidden">
+        border border-gray-500 rounded-3xl">
+          <div className="rounded-3xl overflow-hidden">
           <img src={project1} alt="projet1" />
           </div>
           <div className='my-5 mb-7 font-semibold text-3xl'>Project One</div>
@@ -31,8 +31,8 @@ export const Project = () => {
         </div>
 
         <div className="bg-gray-100 p-10 w-1/3 flex flex-col items-center
-        border border-gray-500 rounded rounded-3xl">
-          <div className="rounded rounded-3xl overflow-hidden">
+        border border-gray-500 rounded-3xl">
+          <div className="rounded-3xl overflow-hidden">
           <img src={project2} alt="projet2" />
           </div>
           <div className='my-5 mb-7 font-semibold text-3xl'>Project Two</div>
@@ -52,8 +52,8 @@ export const Project = () => {
 
       <div className="mb-14 flex justify-center items-center">
         <div className="bg-gray-100 p-10 w-8/12 flex flex-col items-center
-        border border-gray-500 rounded rounded-3xl">
-          <div className="w-full rounded rounded-3xl overflow-hidden">
+        border border-gray-500 rounded-3xl">
+          <div className="w-full rounded-3xl overflow-hidden">
           <img src={project3} alt="projet3" />
           </div>
           <div className='my-5 mb-7 font-semibold text-3xl'>Project Two</div>
